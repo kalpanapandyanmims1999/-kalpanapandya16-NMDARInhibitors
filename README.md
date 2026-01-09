@@ -5,7 +5,11 @@
 **Dataset:** BindingDB Compounds (1,698 unique structures)
 **Date:** November 13, 2025
 **Status:** ✅ Complete Analysis
+Libraries
+RDkit, Mordred, Pandas, Sci-kit learn, Numpy, Scipy
 
+Requirements
+Anaconda, Jupyter Notebook, Microsoft VS Code
 ---
 
 ## 📑 TABLE OF CONTENTS
@@ -31,7 +35,7 @@ Develop machine learning models to predict binary activity labels (Active/Inacti
 
 ### Final Deliverables
 ✅ **3 Fingerprint Types Evaluated** (Morgan, RDKit, MACCS)
-✅ **15 Model-Fingerprint Combinations** (5 models × 3 fingerprints)
+✅ **20 Model-Fingerprint Combinations** (5 models × 4 fingerprints + Descriptors)
 ✅ **5-Fold Cross-Validation** (stratified, random seed=42)
 ✅ **8 Performance Metrics** per combination (Accuracy, Precision, Recall, F1, ROC-AUC, etc.)
 
@@ -45,5 +49,3 @@ Develop machine learning models to predict binary activity labels (Active/Inacti
 | **Accuracy** | **85.46% ± 3.97%** |
 | **Precision** | 79.64% ± 6.39% |
 | **Recall** | 82.36% ± 3.64% |
-
----
