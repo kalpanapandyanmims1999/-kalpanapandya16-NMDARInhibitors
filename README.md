@@ -5,12 +5,12 @@
 **Dataset:** BindingDB Compounds (1,698 unique structures)
 **Date:** November 13, 2025
 **Status:** ✅ Complete Analysis
-Libraries
+
+**Libraries**
 RDkit, Mordred, Pandas, Sci-kit learn, Numpy, Scipy
 
-Requirements
+**Requirements**
 Anaconda, Jupyter Notebook, Microsoft VS Code
----
 
 ## 📑 TABLE OF CONTENTS
 
